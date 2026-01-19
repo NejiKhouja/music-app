@@ -19,3 +19,33 @@ rather than user listening history.
 - Data Processing: NumPy, Pandas
 
 ## Project Structure
+music-app/
+├── front-end/
+├── backend/
+├── ml/
+└── README.md
+
+## Machine Learning Details
+- Run `ml/src/inference.py` to generate song recommendations
+- Includes statistics about features, cluster analysis, and ideal number of clusters (k)
+- Comparison between K-Means and DBSCAN:
+  - **K-Means** produced 2 clusters (upbeat / downbeat)
+  - **DBSCAN** classified ~20k songs as noise out of a 200k-song dataset
+- Chose K-Means for stable clustering and recommendations despite DBSCAN’s noise issue
+
+## How to Run
+1. Start the backend server
+2. Start the frontend server
+3. Optionally, run `ml/src/inference.py` for ML recommendations
+4. Access the application through the frontend interface
+
+> Both frontend and backend must be running for the system to work properly.
+
+## Future Improvements
+- Add more audio features
+- Improve recommendation quality
+- Support user-based personalization
+- Deploy the application
+
+## Disclaimer
+This project is for demonstration and educational purposes.
