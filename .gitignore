@@ -1,0 +1,21 @@
+# ===== Front (React / Node) =====
+node_modules/
+dist/
+build/
+
+# ===== Back (Laravel) =====
+vendor/
+.env
+storage/logs/
+storage/framework/
+
+# ===== ML (Python) =====
+__pycache__/
+venv/
+*.pyc
+*.pkl
+
+# ===== OS / Editor =====
+.DS_Store
+.idea/
+.vscode/
