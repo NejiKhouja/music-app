@@ -1,14 +1,41 @@
-# Node / Angular
+# =========================
+# Node / Angular Frontend
+# =========================
 node_modules/
 dist/
 build/
+.angular/
+.env
 
-# Python / Django
+# =========================
+# Python / Django Backend
+# =========================
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 *.sqlite3
-.env
 *.log
+.env
+*.pot
+*.mo
+staticfiles/
 
-# ML / Jupyter
-*.ipynb_checkpoints
+# =========================
+# ML / Data
+# =========================
+ml/models/
+ml/data/processed/
+ml/data/raw/
+ml/notebooks/*.ipynb_checkpoints
+*.pkl
+*.npy
+*.joblib
+
+# =========================
+# General / OS
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
