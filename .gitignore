@@ -1,21 +1,14 @@
-# ===== Front (React / Node) =====
+# Node / Angular
 node_modules/
 dist/
 build/
 
-# ===== Back (Laravel) =====
-vendor/
-.env
-storage/logs/
-storage/framework/
-
-# ===== ML (Python) =====
+# Python / Django
 __pycache__/
-venv/
 *.pyc
-*.pkl
+*.sqlite3
+.env
+*.log
 
-# ===== OS / Editor =====
-.DS_Store
-.idea/
-.vscode/
+# ML / Jupyter
+*.ipynb_checkpoints
