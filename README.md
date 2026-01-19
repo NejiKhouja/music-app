@@ -13,7 +13,7 @@ rather than user listening history.
 - Modular design, easy to extend
 
 ## Tech Stack
-- Frontend: JavaScript (React)
+- Frontend: Angular
 - Backend: Python (Django)
 - Machine Learning: Python, scikit-learn
 - Data Processing: NumPy, Pandas
